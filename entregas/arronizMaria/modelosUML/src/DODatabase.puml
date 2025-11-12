@@ -9,7 +9,7 @@ object Permisos{
     level = "todos"
 }
 object Operaciones{
-    operation = "cerate"
+    operation = "create"
     operation = "read"
     operation = "update"
     operation = "delete"
@@ -34,6 +34,16 @@ object Columna{
     name = "ID"
     type = "int"
 }
+
+User -- Rol
+Rol -- Permisos
+Permisos -- Operaciones
+Dataset -l- Schema
+Schema -l- View
+Permisos -r- View
+View -- Tabla
+Tabla -- Columna
+Tabla -- index
 
 
 @enduml

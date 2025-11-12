@@ -1,4 +1,5 @@
 @startuml
+
 Class User{}
 Class Rol{}
 Class Permisos{}
@@ -30,6 +31,7 @@ Tabla o-- Trigger
 Tabla *-- Index
 Tabla o-- ForeignKey
 Tabla o-- Constraint
+Tabla *-- Columna
 
 Tabla -[hidden]down-> PrimaryKey
 Tabla -[hidden]down-> Trigger
@@ -39,6 +41,7 @@ Tabla -[hidden]down-> Constraint
 
 PrimaryKey -[hidden]r- Trigger
 Trigger -[hidden]r- Index
+
 
 PrimaryKey *-- Columna
 ForeignKey *-- Columna
