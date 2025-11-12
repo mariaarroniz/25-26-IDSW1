@@ -29,3 +29,13 @@
 |![](https://github.com/mariaarroniz/25-26-IDSW1/blob/d6e7318fa3fca0f208c91d8e11923746ff09a6c5/entregas/arronizMaria/modelosUML/images/DODatabase.svg)|
 |:-:|
 [Código fuente](https://github.com/mariaarroniz/25-26-IDSW1/blob/d6e7318fa3fca0f208c91d8e11923746ff09a6c5/entregas/arronizMaria/modelosUML/src/DODatabase.puml)
+
+<div align = left>
+
+## 2daParte
+
+Segunda parte del examen con las definiciones correctas:
+
+<div align=center>
+
+[2daParte](https://github.com/mariaarroniz/25-26-IDSW1/blob/EP-3raParte/entregas/arronizMaria/docs/2daParte.md)
